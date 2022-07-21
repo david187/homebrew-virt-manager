@@ -17,6 +17,8 @@ class VirtViewer < Formula
   depends_on "shared-mime-info"
   depends_on "spice-gtk"
 
+  depends_on "gstreamer"
+
   patch :DATA
 
   def install
